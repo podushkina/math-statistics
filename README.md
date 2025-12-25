@@ -91,3 +91,5 @@ python main.py
 ```python
 work(model)
 ```
+## Отчёт
+- [PDF-отчёт](docs/report.pdf)
