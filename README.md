@@ -6,17 +6,21 @@
 
 Наблюдения задаются моделью:
 
-- Полезный сигнал:  
-  \( y(x) = \theta_0 + \theta_1 x + \theta_2 x^2 \)
+- Полезный сигнал:
 
-- Наблюдения:  
-  \( y_k = \theta_0 + \theta_1 x_k + \theta_2 x_k^2 + \varepsilon_k \)
+  $$y(x) = \theta_0 + \theta_1 x + \theta_2 x^2$$
 
-- Узлы:  
-  \( x_k = -1 + \frac{k-1}{20},\quad k=1..41 \)
+- Наблюдения:
 
-- Ошибка:  
-  \( \varepsilon_k \sim \mathcal{N}(0,\sigma^2) \), независимы.
+  $$y_k = \theta_0 + \theta_1 x_k + \theta_2 x_k^2 + \varepsilon_k$$
+
+- Узлы:
+
+  $$x_k = -1 + \frac{k-1}{20}, \quad k = 1..41$$
+
+- Ошибка:
+
+  $$\varepsilon_k \sim \mathcal{N}(0, \sigma^2), \text{ независимы}$$
 
 Данные берутся из Excel-файла `Data48.xlsx`.
 
