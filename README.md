@@ -87,11 +87,12 @@ python main.py
    
    ```python
    model = rg.RegressionModel(x_values, Y_values, [rg.Polynomial(2)]).calculate()
-```
+   ```
+   
 5. Печатаются результаты и отображаются графики:
-```python
-work(model)
-```
+   ```python
+   work(model)
+   ```
 ## Отчёт
 - [PDF-отчёт](docs/report.pdf)
 
